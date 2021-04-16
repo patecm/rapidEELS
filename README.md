@@ -13,3 +13,8 @@ This work was done as part of a study using SrFeO3-δ(δrepresents the oxygendef
 ## Descriptions
 
 
+## Requirements
+- Requires the open source Python library [HyperSpy](https://hyperspy.org/) to process DM4 data. 
+- lmfit 1.0.2 (if training data has not been previously PowerLaw background subtracted)
+- Tensorflow version 2.4.1
+- Python 3.7.10
