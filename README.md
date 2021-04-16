@@ -11,7 +11,13 @@ This work was done as part of a study using SrFeO3-δ(δrepresents the oxygendef
 
 
 ## Descriptions
+- [EELS_model_training_GH.ipynb](https://github.com/patecm/rapidEELS/blob/main/EELS_model_training_GH.ipynb)
+    - Notebook to train your own AEC and Classifier on binary state EELS data. 
+    - DM4 files should end with 'a' if annealad (e.g. EELS thick 1_1a.dm4) for binary oxidation state data to be created correctly
+-
+ 
 
+### Usage
 
 ## Requirements
 - Requires the open source Python library [HyperSpy](https://hyperspy.org/) to process DM4 data. 
