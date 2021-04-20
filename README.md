@@ -11,6 +11,15 @@ This code supplements the paper:
 ## About 
 This work was done as part of a study using SrFeO3-δ(δrepresents the oxygendeficiency) thin films, as a starting point for rapid identification of real-time EELS data. The films undergo an oxidation state changes from nominally SrFeO3(Fe4+) to SrFeO2.5(Fe3+) as target metrics to benchmark our algorithms.
 
+![alt text](https://github.com/patecm/rapidEELS/blob/4b8f85fffcbfc1744c6d5c6be3ea878cb2efa887/AEC-framework.png)
+
+The framework consists of two parts. First, the Autoencoder (AEC) is trained on high framerate, low signal to noise ratio (SNR) EELS spectra and their corresponding denoised, background subtracted data. This section comprises the denoising AEC. 
+Second, a basic fully connected classifier is trained on the latent space representation from the AEC. This binary classifier decides if the oxidation state is "initial" or "annealed". 
+And example of results is shown below.  
+
+![alt text](https://github.com/patecm/rapidEELS/blob/c9cf9205d7400d698122084fe1d19256ca4c8075/Figure7.png)
+
+Future work will seek to expand classification from binary to multi-class and move away from a supervized to unsupervized approach. 
 
 ## Descriptions
 - [EELS_model_training_GH.ipynb](https://github.com/patecm/rapidEELS/blob/main/EELS_model_training_GH.ipynb)
