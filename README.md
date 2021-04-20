@@ -19,7 +19,7 @@ And example of results is shown below.
 
 ![alt text](images/Figure7.png)
 
-Future work will seek to expand classification from binary to multi-class and move away from a supervized to unsupervized approach. 
+Future work will seek to expand classification from binary to multi-class and move away from a supervized classification to unsupervized approach.
 
 ## Descriptions
 - [EELS_model_training_GH.ipynb](https://github.com/patecm/rapidEELS/blob/main/EELS_model_training_GH.ipynb)
