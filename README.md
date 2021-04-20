@@ -25,7 +25,14 @@ Future work will seek to expand classification from binary to multi-class and mo
 - [EELS_model_training_GH.ipynb](https://github.com/patecm/rapidEELS/blob/main/EELS_model_training_GH.ipynb)
     - Notebook to train your own AEC and Classifier on binary state EELS data. 
     - DM4 files should end with 'a' if annealad (e.g. EELS thick 1_1a.dm4) for binary oxidation state data to be created correctly
--
+- EELS thick 1_1a.dm4  
+    - Example test DM4 file of a thick annealed sample  
+- EELS thin 1_1.dm4  
+    - Example test DM4 file of a thin initial state sample  
+- aecModel-ld5.zip   
+    - Trained Autoencoder model  
+- classifierModel_binary.zip  
+    - Trainied classifer model
  
 
 ### Usage
